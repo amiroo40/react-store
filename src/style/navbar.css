@@ -1,0 +1,58 @@
+.login-register {
+    border: 1px solid #ccc;
+    /* padding: 3px 10px; */
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: #999;
+}
+
+.login {
+    display: flex;
+    padding: 3px 10px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    border-left: 1px solid #999;
+    cursor: pointer;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+
+.register-icon {
+    margin-right: 5px;
+}
+
+.login-icon {
+    margin-right: 5px;
+}
+
+.register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 10px;
+    cursor: pointer;
+    transition: all, .5s;
+    -webkit-transition: all, .5s;
+    -moz-transition: all, .5s;
+    -ms-transition: all, .5s;
+    -o-transition: all, .5s;
+}
+
+.login:hover {
+    color: #eee;
+    background-color: #198754;
+}
+
+.register:hover {
+    color: #eee;
+    background-color: #198754;
+}
+
